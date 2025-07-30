@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Power Gym</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Power Gym</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#classes">Classes</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to Power Gym</h2>
+    <p>Get fit, stay healthy, feel amazing.</p>
+    <button onclick="joinNow()">Join Now</button>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are a modern gym with state-of-the-art equipment and expert trainers.</p>
+  </section>
+
+  <section id="classes">
+    <h2>Our Classes</h2>
+    <ul>
+      <li>Cardio</li>
+      <li>Weight Training</li>
+      <li>Yoga</li>
+      <li>HIIT</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form onsubmit="submitForm(event)">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <a href="" target="_blank">Privacy Policy</a>
+    <a href="" target="_blank">Terms of Service</a>
+    <a href="" target="_blank">Contact Us</a>
+    <p>Follow us on:</p>
+    <p>
+      <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+      <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+      <a href="https://www.twitter.com" target="_blank">Twitter</a>
+    <p>&copy; 2025 Power Gym. All rights reserved.</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
